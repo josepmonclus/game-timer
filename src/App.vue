@@ -26,10 +26,7 @@
 </template>
 
 <script setup>
-  import HelloWorld from '@/components/HelloWorld.vue'
-  import Header from '@/components/Header.vue'
-  import Timer from '@/components/Timer.vue'
-  import Footer from '@/components/Footer.vue'
+ //
 </script>
 
 <script>
@@ -110,6 +107,10 @@
 .footer {
   height: 5%
 }
+
+.v-text-field input {
+    font-size: 1.5em;
+  }
 
 .inputSeconds input[type='number'] {
     -moz-appearance:textfield;
